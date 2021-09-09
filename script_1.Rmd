@@ -1,0 +1,20 @@
+---
+title: "Predicting Churn"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Lets get started.
+
+```{r loading_packages, message=FALSE, warning=TRUE}
+
+# Loading packages we are going to use throughout the project.
+
+library(tidyverse) # Data manipulation.
+library(magrittr)  # pipe operators
+library(mlr)       # Machine learning 
+
+```
